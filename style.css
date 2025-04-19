@@ -1,0 +1,111 @@
+body{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(163, 167, 166);
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+h2{
+    text-align: justify;
+    font-size: 170%;
+    font-weight: lighter;    
+}
+p{
+    text-align: left;
+    text-align: end;
+    text-align: start;
+    font-size: 130%;
+}
+.primo{
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+}
+.secondo{
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+}
+.terzo{
+    text-align: left;
+    display: inline-block;
+    width: 60%;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.link{
+    font-size: 180%;
+}
+.quinto{
+    display: inline-block;
+    width: 60%;
+}
+.quinto h2{
+    text-align: end;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sesto{
+    display: inline-block;
+    width: 50%;
+}
+.sesto ul{
+    font-size: 150%;
+}
+.settimo{
+    display: inline-block;
+    width: 30%;
+    
+}
+.settimo ul{
+    font-size: 150%;
+}
+.quinto2{
+    display: inline-block;
+    width: 30%;
+    text-align: end;
+}
+.video{
+    width: 60%;
+    max-width: 800px;
+    padding: 20px;
+    margin-left: 25%;
+    box-sizing: border-box;
+  
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #000000;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+  
+    animation: slideIn 1s ease forwards;
+    transform: translateX(-30px);
+    opacity: 0;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.video video{
+    width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+@keyframes slideIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

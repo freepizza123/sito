@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <script src="java.js"></script>
+  <meta charset="UTF-8">
+  <title>Grazie per la visione</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url(immagini/terrad.jpeg) no-repeat;
+      background-size: cover;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      width: 90%;
+      max-width: 1000px;
+      background: rgb(255, 255, 255);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 30px;
+      color: #000000;
+    }
+
+    .columns {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      text-align: left;
+    }
+
+    .column {
+      flex: 1;
+      padding: 10px 20px;
+    }
+
+    .column h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    .column button{
+      margin-left: 90%;
+      background-color: rgba(255, 255, 255, 0.04);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: #000000;
+    }
+
+    li {
+      margin: 6px 0;
+      font-size: 1.1em;
+    }
+
+    @media (max-width: 700px) {
+      .columns {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Grazie per la visione!</h1>
+    <div class="columns">
+      <div class="column">
+        <h2>Realizzato da:</h2>
+        <ul>
+          <li>Alessandro Delfino</li>
+          <li>Andrea Delfino</li>
+          <li>Patricelli Carmine</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2>Fonti dei contenuti:</h2>
+        <ul>
+          <li><a target="_blank" href="https://it.wikipedia.org/wiki/Terra_dei_fuochi#Smaltimento_illegale_dei_rifiuti">Wikipedia</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/@geopop">Geopop</a></li>
+          <li><button onclick="Bottone()">Homepage</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
